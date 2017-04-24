@@ -5,6 +5,7 @@ public class SynBlockTest {
 	
 	@Test
 	public void testRun() {
+		SynBlock obj = new SynBlock();
 		SynBlockThreadA a = new SynBlockThreadA(obj);
 		a.start();
 		SynBlockThreadB b = new SynBlockThreadB(obj);

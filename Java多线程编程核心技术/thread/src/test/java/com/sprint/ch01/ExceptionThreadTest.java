@@ -3,7 +3,8 @@ package com.sprint.ch01;
 import org.junit.Test;
 public class ExceptionThreadTest {
 	
-	@Test
+//因耗时常,不利于其他测试,先注释掉
+//	@Test
 	public void testRun() throws InterruptedException {
 		ExceptionThread thread = new ExceptionThread();
 		thread.start();

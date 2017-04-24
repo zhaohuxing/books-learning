@@ -17,4 +17,6 @@ synchronized同步代码块(170423)
 ![synchronizedBlock.jpg](http://upload-images.jianshu.io/upload_images/2031765-b3a9ba1f37e9839e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-
+volatile :变量在线程之间的可见
+- volatile 只能修饰变量
+- 非原子性
